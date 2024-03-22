@@ -1,9 +1,9 @@
-package service;
+package com.example.minibankingproductservice.service;
 
-import entity.BankProduct;
+import com.example.minibankingproductservice.entity.BankProduct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.BankProductRepository;
+import com.example.minibankingproductservice.repository.BankProductRepository;
 
 import java.util.List;
 

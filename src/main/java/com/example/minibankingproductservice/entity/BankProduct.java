@@ -1,4 +1,4 @@
-package entity;
+package com.example.minibankingproductservice.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

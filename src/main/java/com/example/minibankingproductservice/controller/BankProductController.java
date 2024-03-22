@@ -1,16 +1,17 @@
-package controller;
+package com.example.minibankingproductservice.controller;
 
-import entity.BankProduct;
+import com.example.minibankingproductservice.entity.BankProduct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.BankProductService;
+import com.example.minibankingproductservice.service.BankProductService;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/bank-products")
+@CrossOrigin
 public class BankProductController {
 
     @Autowired
